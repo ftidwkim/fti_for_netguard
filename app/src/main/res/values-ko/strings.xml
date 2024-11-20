@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">JEXKids</string>
+    <string name="skip">나중에</string>
+    <string name="next">다음</string>
+    <string name="terms_and_conditions">이용약관</string>
+    <string name="accept_and_continue">수락 및 계속</string>
+    <string name="home">집</string>
+    <string name="historys">역사</string>
+    <string name="active">활동적인</string>
+    <string name="claim">주장하다</string>
+    <string name="pending">보류 중</string>
+    <string name="history">거래 내역</string>
+    <string name="earn">토큰 벌기</string>
+    <string name="rewards">보상</string>
+    <string name="goal">목표</string>
+    <string name="usage">사용 현황</string>
+    <string name="today_usage">오늘의 사용 시간</string>
+    <string name="time_remaining">남은 시간</string>
+    <string name="top_activity">오늘의 최고 활동</string>
+    <string name="usage_per_day">일일 사용량</string>
+    <string name="today">오늘</string>
+    <string name="earn_dialog">Lets Go!\nAdd item to your task list?</string>
+    <string name="rewards_dialog">Request a reward!\nSend in your request\napproval?</string>
+    <string name="permission">권한</string>
+    <string name="proceed">다음</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_proceed">계속하려면 언어를 선택하십시오</string>
+    <string name="kids_name">자녀의 이름</string>
+    <string name="enter_kids_name">자녀의 이름을 입력해주세요</string>
+    <string name="enter">다음</string>
+    <string name="otp_label">생성된 코드를 새 기기에\n입력하고 제출을 누르세요.</string>
+    <string name="submit">제출하다</string>
+    <string name="lock_label">부모가 차단한 앱</string>
+    <string name="daily_usage">일일 사용량</string>
+    <string name="reward_goal">보상 목표</string>
+    <string name="available_tokens">사용 가능한 토큰 -</string>
+    <string name="remaining">남음</string>
+
+    <string name="permit_usage_access">JEXKids에 대한 사용 액세스</string>
+    <string name="read_phone_state">전화 통화 허용 및 관리</string>
+    <string name="manage_overlay">다른 앱 위에 표시</string>
+    <string name="accessibilty">Accessibility Service</string>
+
+    <string name="title_onboarding_1">젝스트림 계정과 연결</string>
+    <string name="description_onboarding_1">젝스키즈 앱을 사용하기 위해선 젝스트림\n공유기와 계정이 필요합니다. 필요하다면 더\n자세한 내용은 아래 링크를 참고해주세요.</string>
+    <string name="description_onboarding_link1">Jextream.net</string>
+    <string name="description_onboarding_link2">젝스키즈 튜토리얼</string>
+    <string name="link_address1">https://m.jextream.co.kr/</string>
+    <string name="link_address2">https://www.jextream.net/products-jextream-app-v1-0-tutorial/ch-1-video-welcome-to-jextream-home-app-4/</string>
+
+    <string name="title_onboarding_2">젝스트림 계정과 젝스키즈\n디바이스 페어링</string>
+    <string name="description_onboarding_2">아래 링크를 통해 페어링에 대한\n간결한 설명을 볼 수 있습니다.</string>
+
+    <string name="title_onboarding_3">JexKids 온보딩 3</string>
+    <string name="description_onboarding_3">튜토리얼용입니다</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="history_items">
+        <item>All</item>
+        <item>Approved</item>
+        <item>Claimed</item>
+        <item>Denied</item>
+    </string-array>
+    <string-array name="pending_items">
+        <item>All Pending</item>
+        <item>Pending Tasks</item>
+        <item>Pending Rewards</item>
+    </string-array>
+
+    <string name="dialog_permission_tip"> Your Android version is greater than or equal Android 5.0, App Locker need to get the \"Application Usage\" permission.</string>
+    <string name="welcome_to_the_app_lock">Welcome to the JEXKids</string>
+    <string name="reset">Reset</string>
+    <string name="create_pattern">Create pattern</string>
+    <string name="please_draw_your_pattern">Please draw your pattern</string>
+    <string name="identity_confirmation">Identity confirmation</string>
+    <string name="search_application">Search Apps</string>
+    <string name="settings">Settings</string>
+    <string name="lock_time">App lock time</string>
+    <string name="locked_with">Lock app when locked the mobile</string>
+    <string name="open">Open</string>
+    <string name="change_pass">Change lock</string>
+    <string name="show_pattern">Show lock pattern</string>
+    <string name="hiding_pass">Hide lock pattern</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="warning">Warning</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">This permission is only used for locking the apps</string>
+    <string name="privacy">개인 정보 운영 정책</string>
+    <string name="application_name">Application Name</string>
+    <string name="hours_and_minutes">Hours and Minutes</string>
+    <string name="no_data_found">자료가 없음</string>
+
+    <string name="privacy_link"><a href="https://m.jextream.co.kr/member/privacy.html">개인 정보 운영 정책 동의</a></string>
+    <string name="terms_link"><a href="https://m.jextream.co.kr/member/mall_agreement.html">이용약관 동의</a></string>
+    <string name="parent_control">It\'s app controlled by parent</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Added cell</string>
+        
+    <string name="lockscreen_access_pattern_start">Draw unlock pattern</string>
+        
+    <string name="lockscreen_access_pattern_detected">Pattern has been saved </string>
+        
+    <string name="lockscreen_access_pattern_cleared">Pattern has been deleted </string>
+          
+    <string name="lock_recording_intro_header">Set the App\'s unlock pattern</string>
+        
+    <string name="lock_settings_help_how_to_record">How to draw an unlock pattern</string>
+        
+    <string name="lock_recording_incorrect_too_short">You should connect at least 4 points.</string>
+        
+    <string name="lock_pattern_entered_header">Record pattern</string>
+        
+    <string name="lock_need_to_confirm">Draw the pattern again to confirm</string>
+        
+    <string name="lock_need_to_unlock_wrong">The pattern do not match. Please try again.</string>
+        
+    <string name="password_gestrue_tips">Draw pattern to unlock</string>
+        
+    <string name="password_error_count">The pattern does not match. Please try again.</string>
+        
+    <string name="lock_pattern_confirmed_header">Confirmed Pattern</string>
+    <string-array name="app_lock_time_array">
+                
+        <item>After 15 seconds</item>
+                
+        <item>After 30 seconds</item>
+                
+        <item>After 1 minute</item>
+                
+        <item>After 3 minutes</item>
+                
+        <item>After 5 minutes</item>
+                
+        <item>After 10 minutes</item>
+                
+        <item>After 30 minutes</item>
+                
+        <item>Immediate</item>
+            
+    </string-array>
+    <string-array name="lang_array">
+        <item>English</item>
+        <item>Korean (한국어)</item>
+        <item>Spanish (Español)</item>
+    </string-array>
+
+    <string name="app_description">NetGuard provides simple and advanced ways to block access to the internet - no root required. Apps and addresses can individually be allowed or denied access to your Wi-Fi and/or mobile connection.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/home_icon"/>
+    <item
+        android:id="@+id/active"
+        android:title="@string/active"
+        android:icon="@drawable/task_icon"/>
+    <item
+        android:id="@+id/pending"
+        android:title="@string/pending"
+        android:icon="@drawable/pending_icon"/>
+    <item
+        android:id="@+id/claim"
+        android:title="@string/claim"
+        android:icon="@drawable/prize_icon"/>
+    <item
+        android:id="@+id/history"
+        android:title="@string/historys"
+        android:icon="@drawable/ic_history"/>
+</menu>

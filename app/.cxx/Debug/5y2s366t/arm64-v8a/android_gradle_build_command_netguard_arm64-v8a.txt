@@ -1,0 +1,7 @@
+Executable : C:\Users\dwkim\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+D:\Source\Android\jextream-kids-app-android-netguard\app\.cxx\Debug\5y2s366t\arm64-v8a
+netguard
+jvmArgs : 
+

@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Source\Android\jextream-kids-app-android-netguard\app\.cxx\Debug\5y2s366t\arm64-v8a'
+ninja: no work to do.

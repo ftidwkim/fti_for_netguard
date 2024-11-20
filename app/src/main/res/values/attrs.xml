@@ -1,0 +1,35 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+
+        <declare-styleable name="LockPatternView">
+            <!--
+                 Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+                 or "lock_height"
+            -->
+            <attr name="aspect">
+                <enum name="square" value="0" />
+                <enum name="lockWidth" value="1" />
+                <enum name="lockHeight" value="2" />
+            </attr>
+            <attr name="line" format="color" />
+            <attr name="btnNormal" format="reference" />
+            <attr name="btnTouched" format="reference" />
+            <attr name="circleNormal" format="reference" />
+            <attr name="circleGreen" format="reference" />
+            <attr name="circleRed" format="reference" />
+            <attr name="arrowGreenUp" format="reference" />
+            <attr name="arrowRedUp" format="reference" />
+        </declare-styleable>
+		<declare-styleable name="KeyValue">
+        <!--        key value custom view attr-->
+        <attr name="keyText" format="string" />
+        <attr name="valueText" format="string" />
+        <attr name="editable" format="boolean" />
+        <attr name="cardColor" format="color" />
+        <attr name="windowColor" format="color" />
+
+    </declare-styleable>
+</resources>

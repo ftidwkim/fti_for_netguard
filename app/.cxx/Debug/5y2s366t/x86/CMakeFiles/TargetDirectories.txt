@@ -1,0 +1,3 @@
+D:/Source/Android/jextream-kids-app-android-netguard/app/.cxx/Debug/5y2s366t/x86/CMakeFiles/rebuild_cache.dir
+D:/Source/Android/jextream-kids-app-android-netguard/app/.cxx/Debug/5y2s366t/x86/CMakeFiles/netguard.dir
+D:/Source/Android/jextream-kids-app-android-netguard/app/.cxx/Debug/5y2s366t/x86/CMakeFiles/edit_cache.dir

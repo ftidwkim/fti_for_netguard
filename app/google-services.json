@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "223112076094",
+    "project_id": "jexstream-4f565",
+    "storage_bucket": "jexstream-4f565.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223112076094:android:c4853d91bd3ae5f31faa6f",
+        "android_client_info": {
+          "package_name": "com.franklinwireless.android.jexkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223112076094-dr2se6b8m4f0cr4hh1b9vr83tp2aecou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6TrOcFudT9uJ0TphXXR-SrElJHYKnJ9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223112076094-dr2se6b8m4f0cr4hh1b9vr83tp2aecou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "223112076094-7g6h735is72cf4529rha0fgdml05m9ne.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.franklinwireless.ios.jexkids"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223112076094:android:04177b75d6b99a9f1faa6f",
+        "android_client_info": {
+          "package_name": "com.franklinwireless.android.jexkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223112076094-dr2se6b8m4f0cr4hh1b9vr83tp2aecou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6TrOcFudT9uJ0TphXXR-SrElJHYKnJ9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223112076094-dr2se6b8m4f0cr4hh1b9vr83tp2aecou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "223112076094-7g6h735is72cf4529rha0fgdml05m9ne.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.franklinwireless.ios.jexkids"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

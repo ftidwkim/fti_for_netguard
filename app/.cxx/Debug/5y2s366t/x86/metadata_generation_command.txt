@@ -1,0 +1,23 @@
+                    Executable : C:\Users\dwkim\AppData\Local\Android\Sdk\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HD:\Source\Android\jextream-kids-app-android-netguard\app
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=22
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=C:\Users\dwkim\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=C:\Users\dwkim\AppData\Local\Android\Sdk\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\dwkim\AppData\Local\Android\Sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\dwkim\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Source\Android\jextream-kids-app-android-netguard\app\build\intermediates\cxx\Debug\5y2s366t\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\Source\Android\jextream-kids-app-android-netguard\app\build\intermediates\cxx\Debug\5y2s366t\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-BD:\Source\Android\jextream-kids-app-android-netguard\app\.cxx\Debug\5y2s366t\x86
+-GNinja
+-DANDROID_PLATFORM=android-22
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

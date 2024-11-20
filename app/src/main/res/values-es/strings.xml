@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">JEXKids</string>
+    <string name="skip">Saltar</string>
+    <string name="next">Siguiente</string>
+    <string name="terms_and_conditions">Términos y condiciones</string>
+    <string name="accept_and_continue">Aceptar y continuar</string>
+    <string name="home">Hogar</string>
+    <string name="historys">Historia</string>
+    <string name="active">Activa</string>
+    <string name="claim">Afirmar</string>
+    <string name="pending">Pendiente</string>
+    <string name="history">Historial de transacciones</string>
+    <string name="earn">Ganar</string>
+    <string name="rewards">Recompensas</string>
+    <string name="goal">Meta</string>
+    <string name="usage">Uso</string>
+    <string name="today_usage">Uso de hoy</string>
+    <string name="time_remaining">Tiempo restante</string>
+    <string name="top_activity">Actividad principal de hoy</string>
+    <string name="usage_per_day">Uso por día</string>
+    <string name="today">Hoy</string>
+    <string name="earn_dialog">Lets Go!\nAdd item to your task list?</string>
+    <string name="rewards_dialog">Request a reward!\nSend in your request\napproval?</string>
+    <string name="permission">permisos</string>
+    <string name="proceed">Proceder</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_proceed">Seleccione un idioma para continuar</string>
+    <string name="kids_name">Nombre de las niñas</string>
+    <string name="enter_kids_name">Ingrese el nombre de los niños</string>
+    <string name="enter">Ingresar</string>
+    <string name="otp_label">Ingrese el código generado en\nSu nuevo dispositivo y presione enviar</string>
+    <string name="submit">Entregar</string>
+    <string name="lock_label">aplicación bloqueada por padre</string>
+    <string name="daily_usage">Uso diario</string>
+    <string name="reward_goal">Objetivo de recompensa</string>
+    <string name="available_tokens">Fichas disponibles -</string>
+    <string name="remaining">restante</string>
+
+    <string name="permit_usage_access">Acceso de uso para JEXKids</string>
+    <string name="read_phone_state">Permitir y administrar llamadas telefónicas</string>
+    <string name="manage_overlay">Mostrar sobre otras aplicaciones</string>
+    <string name="accessibilty">Accessibility Service</string>
+
+    <string name="title_onboarding_1">Conéctese\na su cuenta de Jextream</string>
+    <string name="description_onboarding_1">Esto requiere un dispositivo Wi-Fi Jextream y funciona con su nueva cuenta. ¿No tienes uno? Comience en</string>
+    <string name="description_onboarding_link1">Jextream.net</string>
+    <string name="description_onboarding_link2">JEXKids Tutorial</string>
+    <string name="link_address1">https://www.jextream.net/shop/</string>
+    <string name="link_address2">https://www.jextream.net/products-jextream-app-v1-0-tutorial/ch-1-video-welcome-to-jextream-home-app-4/</string>
+
+    <string name="title_onboarding_2">Empareje su dispositivo JEXKids consu cuenta JEXtream</string>
+    <string name="description_onboarding_2">Toque el enlace a continuación para ver un breve tutorial sobre cómo emparejar su dispositivo JEXkids con su cuenta JEXtream.</string>
+
+    <string name="title_onboarding_3">Incorporación de JexKids 3</string>
+    <string name="description_onboarding_3">esto es para tutorial</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="history_items">
+        <item>All</item>
+        <item>Approved</item>
+        <item>Claimed</item>
+        <item>Denied</item>
+    </string-array>
+    <string-array name="pending_items">
+        <item>All Pending</item>
+        <item>Pending Tasks</item>
+        <item>Pending Rewards</item>
+    </string-array>
+
+    <string name="dialog_permission_tip"> Your Android version is greater than or equal Android 5.0, App Locker need to get the \"Application Usage\" permission.</string>
+    <string name="welcome_to_the_app_lock">Welcome to the JEXKids</string>
+    <string name="reset">Reset</string>
+    <string name="create_pattern">Create pattern</string>
+    <string name="please_draw_your_pattern">Please draw your pattern</string>
+    <string name="identity_confirmation">Identity confirmation</string>
+    <string name="search_application">Search Apps</string>
+    <string name="settings">Settings</string>
+    <string name="lock_time">App lock time</string>
+    <string name="locked_with">Lock app when locked the mobile</string>
+    <string name="open">Open</string>
+    <string name="change_pass">Change lock</string>
+    <string name="show_pattern">Show lock pattern</string>
+    <string name="hiding_pass">Hide lock pattern</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="warning">Warning</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">This permission is only used for locking the apps</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="application_name">Application Name</string>
+    <string name="hours_and_minutes">Hours and Minutes</string>
+    <string name="no_data_found">No Data Found</string>
+
+    <string name="privacy_link">I agree to JEXtream\'s <a href="https://www.jextream.net/privacy-policy/">Privacy Policy</a></string>
+    <string name="terms_link">I agree to JEXtream\'s <a href="https://www.jextream.net/terms-of-use/">Terms and Conditions</a></string>
+    <string name="parent_control">It\'s app controlled by parent</string>
+
+    <string name="lockscreen_access_pattern_cell_added">Added cell</string>
+        
+    <string name="lockscreen_access_pattern_start">Draw unlock pattern</string>
+        
+    <string name="lockscreen_access_pattern_detected">Pattern has been saved </string>
+        
+    <string name="lockscreen_access_pattern_cleared">Pattern has been deleted </string>
+          
+    <string name="lock_recording_intro_header">Set the App\'s unlock pattern</string>
+        
+    <string name="lock_settings_help_how_to_record">How to draw an unlock pattern</string>
+        
+    <string name="lock_recording_incorrect_too_short">You should connect at least 4 points.</string>
+        
+    <string name="lock_pattern_entered_header">Record pattern</string>
+        
+    <string name="lock_need_to_confirm">Draw the pattern again to confirm</string>
+        
+    <string name="lock_need_to_unlock_wrong">The pattern do not match. Please try again.</string>
+        
+    <string name="password_gestrue_tips">Draw pattern to unlock</string>
+        
+    <string name="password_error_count">The pattern does not match. Please try again.</string>
+        
+    <string name="lock_pattern_confirmed_header">Confirmed Pattern</string>
+    <string-array name="app_lock_time_array">
+                
+        <item>After 15 seconds</item>
+                
+        <item>After 30 seconds</item>
+                
+        <item>After 1 minute</item>
+                
+        <item>After 3 minutes</item>
+                
+        <item>After 5 minutes</item>
+                
+        <item>After 10 minutes</item>
+                
+        <item>After 30 minutes</item>
+                
+        <item>Immediate</item>
+            
+    </string-array>
+    <string-array name="lang_array">
+        <item>English</item>
+        <item>Korean (한국어)</item>
+        <item>Spanish (Español)</item>
+    </string-array>
+
+    <string name="app_description">NetGuard provides simple and advanced ways to block access to the internet - no root required. Apps and addresses can individually be allowed or denied access to your Wi-Fi and/or mobile connection.</string>
+</resources>

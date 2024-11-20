@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="MissingConstraints"
+    tools:context=".home.Pending">
+
+    <include layout="@layout/item_pending"
+        android:id="@+id/item_pending"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:id="@+id/pending_task"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/text_medium"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_pending_btn"
+        android:text="Pending Tasks : 2"
+        android:textColor="@color/pending_header"
+        android:textSize="@dimen/text_medium"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@id/item_active"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <com.sayantan.advancedspinner.MultiSpinner
+        android:id="@+id/multipleItemSelectionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        app:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/pending_task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:hintText="Select Any One"
+        app:entries="@array/pending_items"
+        app:title="Choose Task"/>
+    <RelativeLayout
+        android:id="@+id/pendingDeviceList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/multipleItemSelectionSpinner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_weight="1"
+        tools:listitem="@layout/item_pendinglist">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pendingrecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="@dimen/spacing_normal"
+            android:paddingBottom="@dimen/spacing_large"
+            tools:listitem="@layout/item_pendinglist" />
+
+    </RelativeLayout>
+</LinearLayout>

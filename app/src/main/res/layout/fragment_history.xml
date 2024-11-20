@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="MissingConstraints"
+    tools:context=".home.History">
+
+    <include layout="@layout/item_history"
+        android:id="@+id/item_history"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/history_task"
+        android:background="@drawable/background_history_btn"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/item_active"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/history_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_medium"
+            android:layout_marginEnd="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/text_medium"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="Current Balance"
+            android:textAlignment="center"
+
+            android:textColor="@color/history_header"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="1.0" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/history_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_medium"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="@dimen/text_medium"
+            android:layout_marginBottom="@dimen/text_medium"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/token_icon1"
+            android:gravity="start|center_vertical"
+            android:text="4"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/history_header"
+            app:layout_constraintHorizontal_bias="1.0" />
+        <!--<TableLayout
+            android:id="@+id/secondrow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@id/history_balance">
+            <TableRow
+                android:id="@+id/firstRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2">
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/token_icon"
+                    app:tint="@color/pending_header"
+                    android:adjustViewBounds="true"
+                    app:layout_constraintTop_toBottomOf="@id/activeName"
+                    app:layout_constraintBottom_toTopOf="@id/trackersStatus"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/activeImageGuideline"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/pendingcount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    tools:text="4"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/pending_header"
+                    app:layout_constraintTop_toBottomOf="@id/activeName"
+                    app:layout_constraintBottom_toTopOf="@id/trackersStatus"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/activeImageGuideline"
+                    />
+
+            </TableRow>
+        </TableLayout>-->
+
+    </RelativeLayout>
+    <com.sayantan.advancedspinner.MultiSpinner
+        android:id="@+id/historySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        app:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/pending_task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:hintText="Select Any One"
+        app:entries="@array/history_items"
+        app:title="Choose Task"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/history_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_medium"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/text_medium"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/calendar_icon"
+        android:drawablePadding="5dp"
+        android:gravity="start|center_vertical"
+        android:text="1/20/2023"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textFontWeight="800"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <include layout="@layout/item_historylist1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/history_task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <include layout="@layout/item_historylist2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/history_calendar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <include layout="@layout/item_historylist3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/history_task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</LinearLayout>

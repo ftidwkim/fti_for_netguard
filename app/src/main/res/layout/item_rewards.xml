@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appBar"
+    android:background="@color/rewards_header"
+    >
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/backbtn"
+        android:layout_width="38dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ic_arrowback"
+        android:paddingLeft="@dimen/text_normal"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center_vertical" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/toolBaractive"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/rewards"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

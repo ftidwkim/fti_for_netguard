@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="MissingConstraints"
+    tools:context=".home.reward">
+
+    <include layout="@layout/item_rewards"
+        android:id="@+id/item_rewards"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:id="@+id/rewards_task"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/text_medium"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rewards_btn"
+        android:text="Available Rewards : 6"
+        android:textColor="@color/rewards_header"
+        android:textSize="@dimen/text_medium"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@id/item_rewards"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <RelativeLayout
+        android:id="@+id/rewardsDeviceList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rewards_task"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_weight="1"
+        tools:listitem="@layout/item_rewardslist">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rewardsrecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="@dimen/spacing_normal"
+            android:paddingBottom="@dimen/spacing_large"
+            tools:listitem="@layout/item_rewardslist" />
+
+    </RelativeLayout>
+</LinearLayout>

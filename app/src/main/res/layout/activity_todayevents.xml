@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:ignore="MissingConstraints"
+    tools:context=".home.todayevents">
+    <include
+        layout="@layout/item_todayevents"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usertokens"
+        android:adjustViewBounds="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/UsageCard"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="0dp"
+        android:paddingBottom="@dimen/spacing_large"
+        app:cardBackgroundColor="@color/app_color"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/app_color"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:paddingTop="0dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/calendar_icon"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:layout_weight="0.2"
+                app:tint="@color/white"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/today_events"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textFontWeight="500"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1.6"
+                    android:text="Todays Events"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            <TextView
+                android:id="@+id/totalevents"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textFontWeight="500"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.2"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:clipToPadding="false"
+        >
+
+        <com.framgia.library.calendardayview.CalendarDayView
+            android:id="@+id/calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_normal"
+            app:dayHeight="@dimen/dayHeight"
+            app:eventMarginLeft="0dp" />
+    </ScrollView>
+
+</LinearLayout>

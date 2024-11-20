@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trackersParent"
+    android:background="@drawable/border_activelist"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:padding="10dp"
+    android:layout_marginBottom="@dimen/spacing_normal"
+    android:layout_marginStart="@dimen/spacing_normal"
+    android:layout_marginEnd="@dimen/spacing_normal"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/activeImageGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/activeName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Read a chapter of a book!"
+        android:maxLines="1"
+        android:textFontWeight="500"
+        android:ellipsize="end"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/spacing_normal"
+        android:layout_marginLeft="7dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/activeImageGuideline"
+        app:layout_constraintBottom_toTopOf="@id/secondrow"
+        />
+    <TableLayout
+        android:id="@+id/secondrow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="@dimen/text_normal"
+        app:layout_constraintTop_toBottomOf="@id/activeName">
+        <TableRow
+            android:id="@+id/firstRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+            <ImageView
+                android:layout_width="@dimen/spacing_large"
+                android:layout_height="@dimen/spacing_large"
+                android:src="@drawable/token_icon"
+                android:layout_weight="0.1"
+                app:tint="@color/active_token"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_vertical"
+                app:layout_constraintTop_toBottomOf="@id/activeName"
+                app:layout_constraintBottom_toTopOf="@id/trackersStatus"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/activeImageGuideline"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/activecount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="2"
+                android:layout_weight="1.2"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/spacing_normal"
+                android:textColor="@color/active_token"
+                app:layout_constraintTop_toBottomOf="@id/activeName"
+                app:layout_constraintBottom_toTopOf="@id/trackersStatus"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/activeImageGuideline"
+                />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/trackersStatus"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.7"
+                android:background="@drawable/background_activelist_btn"
+                android:text="Finish"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/active_header"
+                android:textAlignment="center"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintTop_toBottomOf="@id/activecount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/activeImageGuideline"
+                />
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
